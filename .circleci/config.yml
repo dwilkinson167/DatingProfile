@@ -167,7 +167,7 @@ jobs:
       - *decode_gcloud_key
       - run:
           name: Set Google Cloud target project
-          command: gcloud config set project datingp-30397
+          command: gcloud config set project datingprofile-d03f8
       - run:
           name: Authenticate with Google Cloud
           command: gcloud auth activate-service-account firebase-adminsdk-690pz@datingp-30397.iam.gserviceaccount.com --key-file ${HOME}/client-secret.json
